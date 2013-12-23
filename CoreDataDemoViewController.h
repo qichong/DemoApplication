@@ -1,17 +1,13 @@
 //
-//  Employee.m
+//  CoreDataDemoViewController.h
 //  BigNerdDemo
 //
 //  Created by Aashish Dhawan on 23/12/13.
 //  Copyright (c) 2013 Aashish Dhawan. All rights reserved.
 //
 
-#import "Employee.h"
+#import <UIKit/UIKit.h>
 
-
-@implementation Employee
-
-@dynamic name;
-@dynamic position;
+@interface CoreDataDemoViewController : UIViewController
 
 @end

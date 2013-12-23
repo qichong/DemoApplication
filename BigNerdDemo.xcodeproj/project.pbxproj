@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		70B53F992F4241EFACA25FD5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3A250B49E124685824EEA3E /* libPods.a */; };
+		C031B3E91868098A008A2841 /* CoreDataDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C031B3E81868098A008A2841 /* CoreDataDemoViewController.m */; };
+		C031B3EB18680A05008A2841 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C031B3EA18680A04008A2841 /* CoreData.framework */; };
+		C031B3EE18680A20008A2841 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C031B3EC18680A20008A2841 /* Model.xcdatamodeld */; };
+		C031B3F118680AA3008A2841 /* CoreDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = C031B3F018680AA3008A2841 /* CoreDataStore.m */; };
+		C031B3F418680B1F008A2841 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = C031B3F318680B1F008A2841 /* Employee.m */; };
+		C031B3F718681AEE008A2841 /* MenuDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C031B3F618681AEE008A2841 /* MenuDemoViewController.m */; };
 		C0E1977C1860209100DF0B03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E1977B1860209100DF0B03 /* Foundation.framework */; };
 		C0E1977E1860209100DF0B03 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E1977D1860209100DF0B03 /* CoreGraphics.framework */; };
 		C0E197801860209100DF0B03 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E1977F1860209100DF0B03 /* UIKit.framework */; };
@@ -28,7 +35,6 @@
 		C0E3F8AD18643DD0008DFB92 /* FixedLastCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E3F8AB18643DD0008DFB92 /* FixedLastCellViewController.m */; };
 		C0E3F8AE18643DD0008DFB92 /* FixedLastCellViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0E3F8AC18643DD0008DFB92 /* FixedLastCellViewController.xib */; };
 		C0E3F8B118643E93008DFB92 /* TableDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E3F8B018643E93008DFB92 /* TableDataStore.m */; };
-		C0E3F8B4186450B6008DFB92 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E3F8B3186450B6008DFB92 /* Employee.m */; };
 		C0ED9D021862F8230078C1FB /* AnnotationDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0ED9D001862F8230078C1FB /* AnnotationDemoViewController.m */; };
 		C0ED9D031862F8230078C1FB /* AnnotationDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0ED9D011862F8230078C1FB /* AnnotationDemoViewController.xib */; };
 		C0ED9D051862FA4B0078C1FB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0ED9D041862FA4B0078C1FB /* MapKit.framework */; };
@@ -45,6 +51,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B8CFF41B4DE472F89AB63FF /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		C031B3E71868098A008A2841 /* CoreDataDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataDemoViewController.h; sourceTree = "<group>"; };
+		C031B3E81868098A008A2841 /* CoreDataDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataDemoViewController.m; sourceTree = "<group>"; };
+		C031B3EA18680A04008A2841 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C031B3ED18680A20008A2841 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		C031B3EF18680AA3008A2841 /* CoreDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataStore.h; sourceTree = "<group>"; };
+		C031B3F018680AA3008A2841 /* CoreDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataStore.m; sourceTree = "<group>"; };
+		C031B3F218680B1F008A2841 /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		C031B3F318680B1F008A2841 /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		C031B3F518681AEE008A2841 /* MenuDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuDemoViewController.h; sourceTree = "<group>"; };
+		C031B3F618681AEE008A2841 /* MenuDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuDemoViewController.m; sourceTree = "<group>"; };
 		C0E197781860209100DF0B03 /* BigNerdDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BigNerdDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0E1977B1860209100DF0B03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C0E1977D1860209100DF0B03 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -76,12 +93,11 @@
 		C0E3F8AC18643DD0008DFB92 /* FixedLastCellViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FixedLastCellViewController.xib; sourceTree = "<group>"; };
 		C0E3F8AF18643E93008DFB92 /* TableDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableDataStore.h; sourceTree = "<group>"; };
 		C0E3F8B018643E93008DFB92 /* TableDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableDataStore.m; sourceTree = "<group>"; };
-		C0E3F8B2186450B6008DFB92 /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
-		C0E3F8B3186450B6008DFB92 /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
 		C0ED9CFF1862F8230078C1FB /* AnnotationDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnotationDemoViewController.h; sourceTree = "<group>"; };
 		C0ED9D001862F8230078C1FB /* AnnotationDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnotationDemoViewController.m; sourceTree = "<group>"; };
 		C0ED9D011862F8230078C1FB /* AnnotationDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnnotationDemoViewController.xib; sourceTree = "<group>"; };
 		C0ED9D041862FA4B0078C1FB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D3A250B49E124685824EEA3E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,10 +105,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C031B3EB18680A05008A2841 /* CoreData.framework in Frameworks */,
 				C0ED9D051862FA4B0078C1FB /* MapKit.framework in Frameworks */,
 				C0E1977E1860209100DF0B03 /* CoreGraphics.framework in Frameworks */,
 				C0E197801860209100DF0B03 /* UIKit.framework in Frameworks */,
 				C0E1977C1860209100DF0B03 /* Foundation.framework in Frameworks */,
+				70B53F992F4241EFACA25FD5 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +130,7 @@
 		C0E1976F1860209100DF0B03 = {
 			isa = PBXGroup;
 			children = (
+				C031B3EC18680A20008A2841 /* Model.xcdatamodeld */,
 				C0E3F89318640C6F008DFB92 /* Store */,
 				C0E3F89218640C5F008DFB92 /* Controller */,
 				C0E3F89118640C57008DFB92 /* View */,
@@ -120,6 +139,7 @@
 				C0E1979A1860209100DF0B03 /* BigNerdDemoTests */,
 				C0E1977A1860209100DF0B03 /* Frameworks */,
 				C0E197791860209100DF0B03 /* Products */,
+				0B8CFF41B4DE472F89AB63FF /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,11 +155,13 @@
 		C0E1977A1860209100DF0B03 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C031B3EA18680A04008A2841 /* CoreData.framework */,
 				C0ED9D041862FA4B0078C1FB /* MapKit.framework */,
 				C0E1977B1860209100DF0B03 /* Foundation.framework */,
 				C0E1977D1860209100DF0B03 /* CoreGraphics.framework */,
 				C0E1977F1860209100DF0B03 /* UIKit.framework */,
 				C0E197941860209100DF0B03 /* XCTest.framework */,
+				D3A250B49E124685824EEA3E /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -188,8 +210,8 @@
 		C0E3F89018640C4D008DFB92 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				C0E3F8B2186450B6008DFB92 /* Employee.h */,
-				C0E3F8B3186450B6008DFB92 /* Employee.m */,
+				C031B3F218680B1F008A2841 /* Employee.h */,
+				C031B3F318680B1F008A2841 /* Employee.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -219,6 +241,10 @@
 				C0E3F8A2186431F6008DFB92 /* AutoresizingMaskViewController.h */,
 				C0E3F8A3186431F6008DFB92 /* AutoresizingMaskViewController.m */,
 				C0E3F8A4186431F6008DFB92 /* AutoresizingMaskViewController.xib */,
+				C031B3E71868098A008A2841 /* CoreDataDemoViewController.h */,
+				C031B3E81868098A008A2841 /* CoreDataDemoViewController.m */,
+				C031B3F518681AEE008A2841 /* MenuDemoViewController.h */,
+				C031B3F618681AEE008A2841 /* MenuDemoViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -228,6 +254,8 @@
 			children = (
 				C0E3F8AF18643E93008DFB92 /* TableDataStore.h */,
 				C0E3F8B018643E93008DFB92 /* TableDataStore.m */,
+				C031B3EF18680AA3008A2841 /* CoreDataStore.h */,
+				C031B3F018680AA3008A2841 /* CoreDataStore.m */,
 			);
 			name = Store;
 			sourceTree = "<group>";
@@ -239,9 +267,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C0E197A41860209100DF0B03 /* Build configuration list for PBXNativeTarget "BigNerdDemo" */;
 			buildPhases = (
+				EF16DC1694944D5497FC4A41 /* Check Pods Manifest.lock */,
 				C0E197741860209100DF0B03 /* Sources */,
 				C0E197751860209100DF0B03 /* Frameworks */,
 				C0E197761860209100DF0B03 /* Resources */,
+				1A56208DA5514EF0880693D9 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -326,21 +356,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A56208DA5514EF0880693D9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF16DC1694944D5497FC4A41 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C0E197741860209100DF0B03 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C0E3F89918641002008DFB92 /* CGView.m in Sources */,
+				C031B3E91868098A008A2841 /* CoreDataDemoViewController.m in Sources */,
 				C0E1978C1860209100DF0B03 /* AppDelegate.m in Sources */,
+				C031B3F418680B1F008A2841 /* Employee.m in Sources */,
 				C0E3F89F18641B54008DFB92 /* CustomImage.m in Sources */,
 				C0E3F8AD18643DD0008DFB92 /* FixedLastCellViewController.m in Sources */,
+				C031B3F718681AEE008A2841 /* MenuDemoViewController.m in Sources */,
 				C0E197881860209100DF0B03 /* main.m in Sources */,
-				C0E3F8B4186450B6008DFB92 /* Employee.m in Sources */,
+				C031B3F118680AA3008A2841 /* CoreDataStore.m in Sources */,
 				C0ED9D021862F8230078C1FB /* AnnotationDemoViewController.m in Sources */,
 				C0E3F89618640F41008DFB92 /* CGDemoViewController.m in Sources */,
 				C0E3F8A5186431F6008DFB92 /* AutoresizingMaskViewController.m in Sources */,
 				C0E3F8B118643E93008DFB92 /* TableDataStore.m in Sources */,
+				C031B3EE18680A20008A2841 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,6 +525,7 @@
 		};
 		C0E197A51860209100DF0B03 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B8CFF41B4DE472F89AB63FF /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -473,6 +541,7 @@
 		};
 		C0E197A61860209100DF0B03 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B8CFF41B4DE472F89AB63FF /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -559,6 +628,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C031B3EC18680A20008A2841 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C031B3ED18680A20008A2841 /* Model.xcdatamodel */,
+			);
+			currentVersion = C031B3ED18680A20008A2841 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C0E197701860209100DF0B03 /* Project object */;
 }

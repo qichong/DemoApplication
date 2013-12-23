@@ -12,6 +12,8 @@
 #import "AutoresizingMaskViewController.h"
 #import "FixedLastCellViewController.h"
 #import "TableDataStore.h"
+#import "CoreDataDemoViewController.h"
+#import "MenuDemoViewController.h"
 
 @implementation AppDelegate
 
@@ -29,7 +31,13 @@
     //AutoresizingMaskViewController *demoController = [[AutoresizingMaskViewController alloc]init];
 
     
-    FixedLastCellViewController * demoController = [[FixedLastCellViewController alloc]init];
+    //FixedLastCellViewController * demoController = [[FixedLastCellViewController alloc]init];
+    
+    
+    
+    //CoreDataDemoViewController * demoController = [[CoreDataDemoViewController alloc]init];
+    
+    MenuDemoViewController * demoController = [[MenuDemoViewController alloc]init];
     UINavigationController * navigationContoller = [[UINavigationController alloc]initWithRootViewController:demoController];
     self.window.rootViewController = navigationContoller;
     
